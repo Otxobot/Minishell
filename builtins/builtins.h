@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 16:51:21 by abasante          #+#    #+#             */
-/*   Updated: 2023/10/03 13:39:08 by abasante         ###   ########.fr       */
+/*   Updated: 2023/10/06 14:09:32 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,7 @@ int		give_variable(t_env *env, t_env **tmp, char *search);
 t_env	*ft_lstnew(char	*name, char *value);
 char	*return_env_value(char **args);
 int		ft_strisnum(const char *str);
+int		ft_isalpha(int c);
 
 				//EXPORT:
 char	*check_env_string(char **args);

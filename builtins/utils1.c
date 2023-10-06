@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 13:12:33 by abasante          #+#    #+#             */
-/*   Updated: 2023/10/05 18:30:25 by abasante         ###   ########.fr       */
+/*   Updated: 2023/10/06 14:41:29 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*check_env_string(char **args)
 	i = 0;
 	while (args[1][i] != '=')
 	{
-		if (ft_isalnum(args[1][i]) == 0 && args[1][i] != '_')
+		if ((args[1][0] == '_' && args[1][1] == '=') || (ft_isdigit(args[1][0]) == 1))
 		{
 			ft_printf("export: '%s': not a valid identifier\n", args[1]);
 			return (0);

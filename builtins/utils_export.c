@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils_export.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lagonzal <lagonzal@student.42.fr>          +#+  +:+       +#+        */
+/*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 13:16:02 by abasante          #+#    #+#             */
-/*   Updated: 2023/10/02 19:27:06 by lagonzal         ###   ########.fr       */
+/*   Updated: 2023/10/06 14:08:59 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,4 +54,13 @@ int	give_variable(t_env *env, t_env **ret, char *search)
 		*ret = (*ret)->next;
 	}
 	return (1);
+}
+
+int	ft_isalpha(int c)
+{
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else if (c >= 'a' && c <= 'z')
+		return (1);
+	return (0);
 }

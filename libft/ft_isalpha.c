@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lagonzal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/29 13:18:36 by lagonzal          #+#    #+#             */
-/*   Updated: 2022/08/30 18:15:39 by lagonzal         ###   ########.fr       */
+/*   Updated: 2023/10/06 13:40:30 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include"../libft/libft.h"
 /*#include<ctype.h>
 #include<stdio.h>*/
 
